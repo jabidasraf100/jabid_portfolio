@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Jabid Asraf — ASIC Digital Design Engineer</title>
+<meta name="description" content="Portfolio of Jabid Asraf, ASIC Digital Design Engineer specializing in RTL design, SoC integration, and VLSI.">
+<link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<canvas id="bg-circuit" aria-hidden="true"></canvas>
+
+<header class="nav-wrap">
+  <nav class="nav container">
+    <a href="#home" class="logo">JA<span>.</span></a>
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#recommendations">Recommendations</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#outreach">Outreach</a></li>
+      <li><a href="#beyond-work">Beyond Work</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="theme-toggle" id="themeToggle" aria-label="Toggle light/dark theme">
+      <svg class="icon-sun" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/></svg>
+      <svg class="icon-moon" viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </nav>
+</header>
+
+<main>
+
+  <section id="home" class="hero">
+    <div class="container hero-inner">
+      <img src="assets/passport_size_photo_square.jpg" alt="Jabid Asraf" class="hero-photo">
+      <div class="hero-text">
+        <p class="eyebrow">Hello, I'm</p>
+        <h1>Jabid Asraf</h1>
+        <h2 class="title">ASIC Digital Design Engineer</h2>
+        <p class="hero-blurb">
+          Experienced in microarchitectural development, digital design, and finite state machine
+          design, with a focus on front-end timing analysis — from RTL to timing closure for
+          custom SoCs.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="btn btn-primary">Get in touch</a>
+        </div>
+        <div class="hero-meta">
+          <span>Dublin, Ireland</span>
+          <span aria-hidden="true">·</span>
+          <span>MSc Student, TU Dublin</span>
+          <span aria-hidden="true">·</span>
+          <a href="https://www.linkedin.com/in/jabid-asraf" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>01.</span> About</h3>
+      <div class="about-grid">
+        <p>
+          I spent 4+ years at <strong>Ulkasemi Pvt Limited</strong>, growing from Assistant Engineer
+          to Senior Engineer leading digital design work on custom System-on-Chip development —
+          from peripheral IP and bus protocols to SoC integration around Arm Cortex-M subsystems,
+          timing/power closure, and supervising the engineers who build them. I'm now pursuing an
+          MSc in Electronic and Communications Engineering (TU203) at TU Dublin, Grangegorman
+          campus, starting September 2026. I hold a B.Sc in Electrical &amp; Electronic Engineering
+          from Ahsanullah University of Science &amp; Technology.
+        </p>
+        <div class="stat-row">
+          <div class="stat">
+            <span class="stat-number">4+</span>
+            <span class="stat-label">Years at Ulkasemi</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">20+</span>
+            <span class="stat-label">Engineers trained &amp; mentored</span>
+          </div>
+          <div class="stat">
+            <span class="stat-number">3</span>
+            <span class="stat-label">Promotions in 4 years</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>02.</span> Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card">
+          <h4>Digital Design & Verification</h4>
+          <ul class="tag-list">
+            <li>RTL Design</li>
+            <li>FSM Design</li>
+            <li>Computer Architecture</li>
+            <li>Functional Verification</li>
+            <li>Cadence Xcelium</li>
+            <li>ModelSim</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Synthesis, Timing & Power</h4>
+          <ul class="tag-list">
+            <li>Synopsys Design Compiler</li>
+            <li>Synopsys Fusion Compiler</li>
+            <li>Synopsys Formality</li>
+            <li>Synopsys PrimeTime</li>
+            <li>PrimePower</li>
+            <li>Static Timing Analysis</li>
+            <li>Logic Synthesis</li>
+            <li>Power Analysis</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Languages & Scripting</h4>
+          <ul class="tag-list">
+            <li>Verilog</li>
+            <li>SystemVerilog</li>
+            <li>Python</li>
+            <li>C / C++</li>
+            <li>Bash</li>
+            <li>Tcl</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>SoC & Embedded</h4>
+          <ul class="tag-list">
+            <li>System on a Chip (SoC)</li>
+            <li>ARM Cortex-M</li>
+            <li>FPGA</li>
+            <li>Arduino</li>
+            <li>STM32</li>
+          </ul>
+        </div>
+        <div class="skill-card">
+          <h4>Leadership & Recruiting</h4>
+          <ul class="tag-list">
+            <li>Supervisory Skills</li>
+            <li>Project Management</li>
+            <li>Technical Recruiting</li>
+            <li>University Outreach</li>
+            <li>Mentorship & Training</li>
+            <li>Communication</li>
+            <li>Teamwork</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>03.</span> Experience</h3>
+
+      <div class="company-card">
+        <div class="company-head">
+          <div class="company-head-title">
+            <span class="company-logo-chip"><img src="assets/ulkasemi-logo.png" alt="Ulkasemi logo"></span>
+            <h4>Ulkasemi Pvt Limited</h4>
+          </div>
+          <span class="company-meta">Full-time · Dhaka, Bangladesh · On-site · Feb 2022 — Aug 2026</span>
+        </div>
+
+        <div class="role-timeline">
+          <div class="role-item">
+            <div class="role-dot"></div>
+            <div class="role-content">
+              <div class="role-head">
+                <h5>Senior Engineer</h5>
+                <span class="role-date">Jan 2025 — Aug 2026</span>
+              </div>
+              <ul>
+                <li>Supervise a team of engineers and own client project delivery end-to-end.</li>
+                <li>Worked on LPDDR6 PHY design, performing timing analysis with Synopsys Fusion Compiler and power analysis with RTL Architect and PrimePower.</li>
+                <li>Performed design debug and coverage closure on the LPDDR6 PHY.</li>
+                <li>On top of all prior-stage responsibilities below.</li>
+              </ul>
+              <ul class="tag-list role-skills">
+                <li>Project Management</li>
+                <li>Supervisory Skills</li>
+                <li>Power Analysis</li>
+                <li>LPDDR6 PHY</li>
+                <li>Coverage Closure</li>
+                <li>RTL Architect</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role-item">
+            <div class="role-dot"></div>
+            <div class="role-content">
+              <div class="role-head">
+                <h5>Engineer</h5>
+                <span class="role-date">Jan 2024 — Dec 2024</span>
+              </div>
+              <ul>
+                <li>Designed complex in-house IP blocks for a custom SoC, applying low-power design methodologies and learning coverage closure.</li>
+                <li>Lead SoC integration work around Arm Cortex-M subsystems, including the external SRAM controller.</li>
+                <li>Advanced scripting for design flow automation and FPGA implementation work.</li>
+                <li>Designed and developed MAS (Micro-Architecture Specification) of GPIO, Timer/Counter, RTC, and I2C peripheral IP.</li>
+                <li>Learned to use Synopsys Fusion Compiler, Cadence Conformal, and Synopsys Formality.</li>
+                <li>Started participating in technical recruitment, training, and university outreach activities.</li>
+              </ul>
+              <ul class="tag-list role-skills">
+                <li>Synopsys Formality</li>
+                <li>Synopsys Fusion Compiler</li>
+                <li>Cadence Conformal</li>
+                <li>Synopsys PrimeTime</li>
+                <li>Low Power Design</li>
+                <li>Technical Recruiting</li>
+                <li>University Outreach</li>
+                <li>FPGA</li>
+                <li>ARM Cortex-M</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="role-item">
+            <div class="role-dot"></div>
+            <div class="role-content">
+              <div class="role-head">
+                <h5>Assistant Engineer</h5>
+                <span class="role-date">Feb 2022 — Dec 2023</span>
+              </div>
+              <ul>
+                <li>Built a strong foundation in micro-architecture spec development, FSM design, and debugging using Cadence Xcelium and ModelSim.</li>
+                <li>Developed micro-architecture and designed SPI, APB, AHB, and watchdog timer peripheral IP.</li>
+                <li>Learned Bash and Tcl scripting alongside class-based functional verification.</li>
+                <li>Learned synthesis and static timing analysis, including hands-on use of Synopsys Design Compiler.</li>
+              </ul>
+              <ul class="tag-list role-skills">
+                <li>Computer Architecture</li>
+                <li>Functional Verification</li>
+                <li>RTL Design</li>
+                <li>Logic Synthesis</li>
+                <li>Static Timing Analysis</li>
+                <li>SystemVerilog</li>
+                <li>Verilog</li>
+                <li>Scripting</li>
+                <li>Teamwork</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="recommendations" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>04.</span> Recommendations</h3>
+      <div class="recommendation-card">
+        <div class="recommendation-author-name">Gautham Shivanna</div>
+        <div class="recommendation-author-title">Synthesis/Timing Lead at <strong class="company-highlight">Synopsys Inc</strong></div>
+        <p class="recommendation-text is-clamped">
+          Having worked closely with Jabid in his capacity as a Senior Engineer, I have had the
+          opportunity to observe his technical skills, dedication, and impactful contributions to
+          our engineering team. Jabid has demonstrated deep expertise in critical areas of digital
+          design, specifically focusing on RTL synthesis and the development of robust timing
+          constraints. He possesses a sharp analytical mind, which makes him exceptionally
+          effective at debugging complex timing issues. On numerous occasions, Jabid identified
+          critical-path bottlenecks and successfully implemented creative solutions to resolve
+          them, ensuring our projects met strict performance and schedule requirements. Beyond his
+          core engineering responsibilities, Jabid has been a key driver of technical innovation
+          within our team. He proactively evaluated and integrated new tools and design
+          methodologies into our existing flows. Change can often be disruptive, but Jabid's
+          leadership and clear communication style made the transition seamless. He mentored team
+          members, created documentation, and provided hands-on support, which greatly accelerated
+          team adoption and improved our overall development efficiency. Jabid is a collaborative
+          team player who brings both technical excellence and a problem-solving mindset to the
+          table. I have no doubt that he will be an invaluable asset to any engineering team he
+          joins.
+        </p>
+        <button type="button" class="recommendation-toggle">Show more</button>
+      </div>
+    </div>
+  </section>
+
+  <section id="education" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>05.</span> Education</h3>
+      <div class="timeline">
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h4>MSc in Electronic and Communications Engineering (TU203)</h4>
+              <span class="timeline-date">Sept 2026 — Present</span>
+            </div>
+            <p class="timeline-org">TU Dublin, Grangegorman Campus, Dublin, Ireland</p>
+          </div>
+        </div>
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="timeline-content">
+            <div class="timeline-head">
+              <h4>B.Sc in Electrical &amp; Electronic Engineering (EEE)</h4>
+              <span class="timeline-date">2016 — 2021</span>
+            </div>
+            <p class="timeline-org">Ahsanullah University of Science &amp; Technology, Dhaka, Bangladesh</p>
+            <p class="timeline-org">CGPA: 3.609 / 4.00</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="lang-proficiency">
+        <h4 class="lang-proficiency-title">Language Proficiency</h4>
+        <div class="skills-grid">
+          <div class="skill-card">
+            <h4>IELTS Academic — 7.0 Overall</h4>
+            <ul class="tag-list">
+              <li>Listening 7.5</li>
+              <li>Reading 7.0</li>
+              <li>Writing 6.0</li>
+              <li>Speaking 6.5</li>
+            </ul>
+            <p class="lang-date">Aug 2024</p>
+          </div>
+          <div class="skill-card">
+            <h4>Duolingo English Test — 120/160</h4>
+            <ul class="tag-list">
+              <li>Speaking 110</li>
+              <li>Writing 125</li>
+              <li>Reading 125</li>
+              <li>Listening 115</li>
+            </ul>
+            <p class="lang-date">May 2026</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>06.</span> Projects</h3>
+      <div class="projects-grid">
+        <div class="project-card">
+          <p class="project-status">Ongoing</p>
+          <h4>Edge AI: ANN Hardware Accelerator for Microcontrollers via SPI Interface</h4>
+          <p>
+            An ASIC-based generalized Artificial Neural Network accelerator for microcontrollers,
+            built with parallel multiplication and accumulation units plus on-chip memory blocks.
+            Enables edge inference for arbitrary ANN architectures, validated against MNIST,
+            Fashion MNIST, CIFAR-10, and CIFAR-100 across multiple layer and neuron configurations.
+          </p>
+          <p class="project-meta"><strong>Supervisor:</strong> Prof. Dr. Satyendra Nath Biswas</p>
+          <ul class="tag-list">
+            <li>ModelSim</li>
+            <li>MATLAB</li>
+            <li>Cadence Virtuoso</li>
+          </ul>
+        </div>
+        <div class="project-card">
+          <p class="project-status">Undergraduate Thesis</p>
+          <h4>Prospects &amp; Opportunities of Waste-Based Biomass Power Plants near Dhaka City</h4>
+          <p>
+            A comparative study of biomass generation potential from kitchen waste, poultry
+            manure, garden waste, green grass, and fish waste in Bangladesh, identifying which
+            waste streams are most viable for a biomass power plant that could ease both power
+            shortages and waste management challenges near Dhaka.
+          </p>
+          <p class="project-meta"><strong>Supervisor:</strong> Dr. Umma Hany</p>
+          <ul class="tag-list">
+            <li>SAM Software</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="outreach" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>07.</span> Outreach & Community</h3>
+      <p class="outreach-blurb">
+        As part of Ulkasemi's university outreach program, I visit universities to run seminars
+        and workshops introducing students to industry-level digital design, and to help inspire
+        the next generation of hardware engineers. I've also been invited to sit on panels and
+        pose questions as a judge at student events and competitions.
+      </p>
+      <div class="cert-gallery">
+        <div class="cert-card">
+          <a href="assets/certificates/cert-beyond-boundaries.pdf" target="_blank" rel="noopener">
+            <img src="assets/certificates/cert-1.jpg" alt="Ulkasemi Certificate of Achievement — Beyond Boundaries, for university outreach commitment">
+          </a>
+        </div>
+        <div class="cert-card">
+          <a href="assets/certificates/cert-extraordinary-effort.pdf" target="_blank" rel="noopener">
+            <img src="assets/certificates/cert-2.jpg" alt="Ulkasemi Certificate of Achievement — Extraordinary Effort, for university outreach and internal training activities">
+          </a>
+        </div>
+        <div class="cert-card">
+          <a href="assets/certificates/cert-appreciation.pdf" target="_blank" rel="noopener">
+            <img src="assets/certificates/cert-appreciation.jpg" alt="Ulkasemi Certificate of Appreciation for VLSI training of BUET EEE 18th Batch students">
+          </a>
+        </div>
+        <div class="cert-card">
+          <a href="assets/certificates/cert-promotion-note.pdf" target="_blank" rel="noopener">
+            <img src="assets/certificates/cert-funding.jpg" alt="Ulkasemi congratulatory note on promotion to Senior Engineer">
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="beyond-work" class="section reveal">
+    <div class="container">
+      <h3 class="section-title"><span>08.</span> Beyond Work</h3>
+      <p class="beyond-blurb">
+        When I'm not at the bench, I'm usually building small apps, exploring what AI tools can
+        do for hardware scripting and everyday workflows, or out on the field.
+      </p>
+      <ul class="tag-list hobby-list">
+        <li>Building Apps</li>
+        <li>Exploring AI Tools</li>
+        <li>AI-Assisted Scripting</li>
+        <li>Video Games</li>
+        <li>Football</li>
+        <li>Volleyball</li>
+        <li>Badminton</li>
+        <li>Traveling</li>
+        <li>Watching Movies</li>
+        <li>Volunteer Work</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="contact" class="section reveal">
+    <div class="container contact-inner">
+      <h3 class="section-title"><span>09.</span> Contact</h3>
+      <p class="contact-blurb">
+        Have a role or project in mind? Let's talk.
+      </p>
+      <div class="contact-links">
+        <a href="mailto:jabidasraf100@gmail.com" class="contact-link">
+          <span class="contact-label">Email</span>
+          jabidasraf100@gmail.com
+        </a>
+        <a href="tel:+8801719458153" class="contact-link">
+          <span class="contact-label">Phone (Bangladesh)</span>
+          +880 1719458153
+        </a>
+        <a href="tel:+353899677878" class="contact-link">
+          <span class="contact-label">Phone (Ireland)</span>
+          +353 89 967 7878
+        </a>
+        <a href="https://www.linkedin.com/in/jabid-asraf" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-label">LinkedIn</span>
+          linkedin.com/in/jabid-asraf
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="container footer-inner">
+    <p>&copy; <span id="year"></span> Jabid Asraf.</p>
+  </div>
+</footer>
+
+<script src="js/script.js"></script>
+</body>
+</html>
